@@ -1,0 +1,20 @@
+{
+  "name": "gamejs",
+  "version": "1.0.0",
+  "description": "CampJS GameJam",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./"
+  },
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "rollup": "^0.64.1"
+  },
+  "author": "Ben O'Neal",
+  "license": "ISC"
+}
