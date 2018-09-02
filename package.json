@@ -4,7 +4,7 @@
   "description": "CampJS GameJam",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir ./"
+    "build": "rollup ./src/bootstrap.js --file index.js --format iife"
   },
   "dependencies": {
     "babel-cli": "^6.23.0",
